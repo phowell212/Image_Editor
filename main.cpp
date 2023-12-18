@@ -14,7 +14,6 @@ void applyZoom() {
     Mat zoomedImage;
     double scale = zoomLevel / 100.0;
     resize(currentImage, zoomedImage, Size(), scale, scale);
-    imshow("Image Editor", zoomedImage);
 }
 
 void applySharpener() {
@@ -101,6 +100,8 @@ void onTrackbarChange(int, void*) {
 
 
 int main() {
+
+    // Update the path to the image file
     string imagePath = "/mnt/c/Users/h/CLionProjects/Image_Editor_Test/rye.jpg";
     originalImage = imread(imagePath);
     currentImage = originalImage.clone();
@@ -135,7 +136,7 @@ int main() {
 
 
     // Display initial image
-    applyZoom();
+    imshow("Image Editor", currentImage);
 
     int key;
     while (true) {
