@@ -1,0 +1,3 @@
+/mnt/c/Users/h/CLionProjects/Image_Editor_Test/cmake-build-debug/CMakeFiles/Image_Editor_Test.dir
+/mnt/c/Users/h/CLionProjects/Image_Editor_Test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/h/CLionProjects/Image_Editor_Test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
